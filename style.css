@@ -153,20 +153,28 @@ h3 {
    color: rgb(17, 37, 212);
    border-radius: 10px;
    margin: 15px;
+   margin-bottom: 50px;
 }
 
-.right div:nth-child(6){
+.right a{
+   text-decoration: none;
    width: 160px;
    height: 35px;
    background-color: rgb(59, 59, 59);
    color: white;
    font-weight: 700;
    font-family: Cambria, sans-serif;
-   padding-top: 15px;
-   padding-left: 90px;
    border-radius: 30px;
-   margin-left: 15px;
-   margin-top: 50px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   padding-left: 50px;
+   padding-right: 50px;
+   margin-left: 70px;
+}
+
+.right a:hover{
+   background-color: rgb(59, 59, 59, 0.6);
+   transition: .3s;
 }
 
 img {
